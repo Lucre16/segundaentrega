@@ -1,0 +1,13 @@
+.navbar{
+    height: 80px;
+    /* background-color: green; */
+}
+
+.navbar-brand img{
+    height: 60px;
+    border-radius: 30px;
+}
+
+.nav-link{
+    color: #fff !important;
+}
