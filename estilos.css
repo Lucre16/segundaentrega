@@ -122,3 +122,42 @@ footer i{
     color: #fff;
     padding: 35px;
 }
+
+/* productos */
+.productos{
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    font-size: 45px;
+    text-shadow: 0 0 5px #3f0e1e, 0 0 5px #3f0e1e, 0 0 5px #3f0e1e,0 0 5px #3f0e1e;
+}
+.vinos{
+    height: 700px;
+    width: 100%;
+    background-image: url(img/W9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card{
+    margin-top: 15px;
+}
+
+.card-title{
+    color: #212529;
+    text-align: center;
+    font-size: 25px;
+}
+
+.card-a{
+    color: #fff;
+    text-align: center;
+    background-color: #3f0e1e;
+    text-decoration: none;
+    display: inline-block;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    text-transform:uppercase;
+}
