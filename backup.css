@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3f0e1e;
+}
+
+.navbar{
+    height: 80px;
+    border: 2px solid #302f2f;
+}
+
+.navbar-nav:hover{
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    background-color: #3f0e1e;
+}
+
+span{
+    font-size: 23px;
+    font-style: italic;
+}
+
+.navbar-brand img{
+    height: 60px;
+    border-radius: 30px;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-size: 20px;
+}
+
+main{
+    padding: 15px;
+    margin: 15px;
+    color: #fff;
+    height: 700px;
+    width: 100%;
+    background-image: url(img/W1.jpg);
+    background-size:cover;
+    background-position: center;
+    border: 2px solid #212529;
+}
+
+.home{
+    border: 5px solid #3f0e1e ;
+}
+
+h1{
+    font-style: italic;
+    text-shadow: 0 0 5px #3f0e1e, 0 0 5px #3f0e1e, 0 0 5px #3f0e1e, 0 0 5px #3f0e1e, 0 0 5px #3f0e1e;
+}
+
+footer{
+    background-color: #212529;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #302f2f;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+footer .redes{
+    margin-top: 10px;
+}
+
+footer a{
+    color: #fff;
+    text-shadow: 0 0 5px #3f0e1e, 0 0 5px #3f0e1e, 0 0 5px #3f0e1e,0 0 5px #3f0e1e;
+}
+
+footer i{
+    font-size: 15px;
+    letter-spacing: 10px;
+}
+
+.what{
+    height: 60px;
+    width: 60px;
+    background-color: springgreen;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    border: 2px solid #fff;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #000;
+}
+
+/* Gaston */
+
+.soy{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #302f2f;
+    border: 2px solid #212529;
+}
+
+.img-responsive{
+    height: 100px;
+    width: 100%;
+    height: auto;
+}
+
+.presentacion{
+    text-align: center;
+    color: #fff;
+    padding: 35px;
+}
+
+/* productos */
+.productos{
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    font-size: 45px;
+    text-shadow: 0 0 5px #3f0e1e, 0 0 5px #3f0e1e, 0 0 5px #3f0e1e,0 0 5px #3f0e1e;
+}
+.vinos{
+    height: 700px;
+    width: 100%;
+    background-image: url(img/W9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card{
+    margin-top: 15px;
+}
+
+.card-title{
+    color: #212529;
+    text-align: center;
+    font-size: 25px;
+}
+
+.card-a{
+    color: #fff;
+    text-align: center;
+    background-color: #3f0e1e;
+    text-decoration: none;
+    display: inline-block;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    text-transform:uppercase;
+}
+
+/* Eventos */
+
+
+.eventos{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.miclase{
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid #fff;
+}
+
+
+/* contacto */
+
+form{
+    width: 100%;
+    height: 100vh;
+    background-color: #302f2f;
+    margin-top: 15px;
+    padding: 30px;
+    background-image:  linear-gradient(rgba(187, 151, 150, 0.247), rgba(158, 46, 46, 0.397)),  url(img/W4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contacto{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline #3f0e1e;
+}
+
+form input{
+    width: 100%;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid #000;
+}
+
+form input::placeholder{
+    color: #000;
+}
+
+form textarea{
+    width: 100%;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid #000;
+}
+
+form textarea::placeholder{
+    color: #000;
+}
+
+form #enviar{
+    background-color: #302f2f;
+    font-size: 25px;
+    border: 4px solid #000;
+    padding: 10px;
+}
